@@ -14,5 +14,5 @@ opt.termguicolors = true
 opt.background = "dark"
 
 vim.g.netrw_liststyle = 3
-vim.g.netrw_winsize = 14
+vim.g.netrw_winsize = 25
 

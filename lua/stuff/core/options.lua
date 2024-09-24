@@ -13,4 +13,6 @@ opt.scrolloff = 8
 opt.termguicolors = true
 opt.background = "dark"
 
+vim.g.netrw_liststyle = 3
+vim.g.netrw_winsize = 14
 

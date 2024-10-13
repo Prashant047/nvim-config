@@ -13,10 +13,10 @@ return {
             ["<C-j>"] = actions.move_selection_next,
           },
         },
+        file_ignore_patterns = {
+          "node_modules", ".git"
+        }
       },
-      file_ignore_patterns = {
-        "node_modules", ".git"
-      }
     })
 
     local builtin = require('telescope.builtin')

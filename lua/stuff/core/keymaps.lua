@@ -1,12 +1,19 @@
 vim.g.mapleader = " "
 
 vim.keymap.set("i", "jk", "<Esc>", {})
-vim.keymap.set("n", "<leader>nh", ":nohl<CR>", {desc = "Clear serach highlights"})
 vim.keymap.set("n", "<leader>eo", ":Exp<CR>", {desc = "Open netrw"})
 vim.keymap.set("n", "<leader>ei", ":Lex<CR>", {desc = "Open netrw in vsplit"})
+vim.keymap.set("n", "<leader>cl", ":nohl<CR>", {desc = "Clear last highlight"})
 
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", {desc = "move highlighted down"})
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", {desc = "move highlighted up"})
+vim.keymap.set("v", "J", ":m '>+1<cr>gv=gv", {desc = "move highlighted down"})
+vim.keymap.set("v", "K", ":m '<-2<cr>gv=gv", {desc = "move highlighted up"})
+vim.keymap.set("v", "<leader>y", "\"+y", {desc = "move highlighted up"})
+
+vim.keymap.set("n", "<leader>sn", ":bnext<CR>", {desc = "Change to Next buffer"})
+vim.keymap.set("n", "<leader>sp", ":bprevious<CR>", {desc = "Change to Previous buffer"})
+
+vim.keymap.set('n', '<leader>nn', '<C-S-6>', { noremap = true, silent = true, desc = "Switch between recent buffers"})
+
 
 -- auto close brackets
 local pairs = {

@@ -12,6 +12,7 @@ opt.scrolloff = 8
 
 opt.termguicolors = true
 opt.background = "dark"
+opt.cursorline = true
 
 vim.g.netrw_liststyle = 3
 vim.g.netrw_winsize = 25

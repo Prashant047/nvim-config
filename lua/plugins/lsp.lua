@@ -51,10 +51,10 @@ return {
           'pyright',
           'rust_analyzer',
           'gopls',
-          'marksman',
           'html',
           'ts_ls',
           'clangd',
+          'cssls',
         },
         handlers = {
           function(server_name)

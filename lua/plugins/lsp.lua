@@ -55,6 +55,8 @@ return {
           'ts_ls',
           'clangd',
           'cssls',
+          'black',
+          'prettier',
         },
         handlers = {
           function(server_name)

@@ -1,5 +1,5 @@
 require("stuff.core")
 require("stuff.lazy")
 
-vim.cmd("colorscheme tokyonight-night")
+vim.cmd("colorscheme moonfly")
 vim.o.background = 'dark'

@@ -1,9 +1,7 @@
 return {
   {
-    'VonHeikemen/lsp-zero.nvim',
-    branch = 'v4.x',
+    'neovim/nvim-lspconfig',
     dependencies = {
-      'neovim/nvim-lspconfig',
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/nvim-cmp',
       'williamboman/mason.nvim',
@@ -55,8 +53,8 @@ return {
           'ts_ls',
           'clangd',
           'cssls',
-          'black',
-          'prettier',
+          'volar',
+          'emmet_ls',
         },
         handlers = {
           function(server_name)

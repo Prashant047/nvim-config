@@ -33,7 +33,7 @@ vim.keymap.set('i', '<BS>', function()
   local line = vim.fn.getline('.')
   local prev_char = line:sub(col - 1, col - 1)
   local next_char = line:sub(col, col)
-  
+
   for _, pair in ipairs(pairs) do
     if prev_char == pair[1] and next_char == pair[2] then
       return '<BS><Del>'
@@ -48,7 +48,7 @@ for _, pair in ipairs(pairs) do
     local col = vim.fn.col('.')
     local line = vim.fn.getline('.')
     local next_char = line:sub(col, col)
-    
+
     if next_char == pair[2] then
       return '<Right>'
     else

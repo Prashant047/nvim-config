@@ -10,7 +10,7 @@ return {
         typescript = { "prettier" },
         javascriptreact = { "prettier" },
         typescriptreact = { "prettier" },
-        svelte = { "prettier" },
+        svelte = { "svelte" },
         css = { "prettier" },
         html = { "prettier" },
         json = { "prettier" },

@@ -54,7 +54,6 @@ return {
           'clangd',
           'cssls',
           'volar',
-          'emmet_ls',
         },
         handlers = {
           function(server_name)

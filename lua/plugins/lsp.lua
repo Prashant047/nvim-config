@@ -56,6 +56,7 @@ return {
           'cssls',
           'volar',
           'denols',
+          'svelte'
         },
         handlers = {
           function(server_name)

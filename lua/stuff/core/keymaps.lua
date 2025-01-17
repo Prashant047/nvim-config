@@ -17,12 +17,13 @@ vim.keymap.set("n", "<C-K>", "<C-W>k")
 vim.keymap.set("n", "<C-L>", "<C-W>l")
 
 
--- terminal mappings
-vim.keymap.set('n', '<A-i>', ':botright vsplit | terminal<CR>')
-vim.keymap.set('t', '<A-i>', [[ <C-\><C-n><CMD>:q<CR> ]])
-vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]], { noremap = true, silent = true })
-vim.keymap.set('t', '<C-h>', [[<C-\><C-n><C-w>h]], { noremap = true, silent = true })
-vim.keymap.set('t', '<C-j>', [[<C-\><C-n><C-w>j]], { noremap = true, silent = true })
-vim.keymap.set('t', '<C-k>', [[<C-\><C-n><C-w>k]], { noremap = true, silent = true })
-vim.keymap.set('t', '<C-l>', [[<C-\><C-n><C-w>l]], { noremap = true, silent = true })
+-- Will remove soon, I haven't used terminal in vim ever so no need of these
+-- -- terminal mappings
+-- vim.keymap.set('n', '<A-i>', ':botright vsplit | terminal<CR>')
+-- vim.keymap.set('t', '<A-i>', [[ <C-\><C-n><CMD>:q<CR> ]])
+-- vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]], { noremap = true, silent = true })
+-- vim.keymap.set('t', '<C-h>', [[<C-\><C-n><C-w>h]], { noremap = true, silent = true })
+-- vim.keymap.set('t', '<C-j>', [[<C-\><C-n><C-w>j]], { noremap = true, silent = true })
+-- vim.keymap.set('t', '<C-k>', [[<C-\><C-n><C-w>k]], { noremap = true, silent = true })
+-- vim.keymap.set('t', '<C-l>', [[<C-\><C-n><C-w>l]], { noremap = true, silent = true })
 

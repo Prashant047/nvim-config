@@ -8,7 +8,15 @@ return {
         no_italic = true,
         no_bold = true,
       })
-      vim.cmd("colorscheme catppuccin-mocha")
+      -- vim.cmd("colorscheme catppuccin-mocha")
+    end
+  },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme tokyonight-night")
     end
   }
 }

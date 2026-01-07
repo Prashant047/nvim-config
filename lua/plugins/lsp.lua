@@ -56,14 +56,15 @@ return {
       require('mason-lspconfig').setup({
         ensure_installed = {
           'lua_ls',
-          'pyright',
+          'ty', -- python lsp
+          'ruff', -- python formatter
           'rust_analyzer',
           'gopls',
           'html',
           'ts_ls',
           'clangd',
           'cssls',
-          -- 'volar',
+          'vue_ls',
           'denols',
           'svelte',
         },

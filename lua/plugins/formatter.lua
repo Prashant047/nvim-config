@@ -16,7 +16,7 @@ return {
         vue = { "prettier" },
         yaml = { "prettier" },
         markdown = { "prettier" },
-        python = { "black" },
+        python = { "ruff" },
       }
     })
 
